@@ -1,0 +1,178 @@
+.form-content {
+    max-width: $home-form-width;
+    min-height: 200px;
+    margin: 40px auto 0 auto;
+    font-size: 18px;
+    font-family: GillSansL;
+    font-size: 18px;
+    input{
+        font-size: 18px;
+        font-family: GillSansL;
+        border: 2px solid $site-blue;
+    }
+    .booking {
+        height: 80px;
+        margin-top: 40px;
+        margin-bottom: 31px;
+        font-size: 60px;
+        font-family: ProximaNovaScOsfExtraCondensed;
+    }
+    .top-boxes{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-bottom: 20px;
+        input{
+            width: 344px;
+            height: 58px;
+            padding-left: 10px;
+        }
+        .bigbox{
+            width: 453px;
+        }
+    }
+    .med-boxes{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-bottom: 20px;
+        input{
+            width: 698px;
+            height: 58px;
+            padding-left: 10px;
+            background-image: url(../images/calendar.svg);
+            background-repeat: no-repeat;
+            background-size: 19px 19px;
+            background-position: right 20px center;
+            
+        }
+    }
+    .low-boxes{
+        display: flex;
+        align-items: center;
+        padding-bottom: 20px;
+        input{
+            width: 103px;
+            height: 58px;
+            padding-left: 10px;
+            background-image: url(../images/down-arrow.svg);
+            background-repeat: no-repeat;
+            background-size: 19px 19px;
+            background-position: right 20px center;
+        }
+        .adult{
+            padding-right: 80.7px;
+        }
+        .adultN{
+            padding-right: 81.5px;
+        }
+        .children{
+            padding-right: 46.8px;
+        }
+        .childrenN{
+            padding-right: 76px;
+        }
+        .rooms{
+            padding-right: 67.7px;
+        }
+    }
+    .textbox{
+        display: flex;
+        align-items: center;
+        padding-bottom: 37px;
+        input{
+            width: 818px;
+            height: 192px;
+            padding-left: 10px;
+            top: 0px;
+            left: 0px;
+        }
+    }
+    .submit{
+        padding-bottom: 100px;
+        .button{
+            background-color: $site-blue;
+            width: 813px;
+            height: 60px;
+            border-radius: 25px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            text-transform: uppercase;
+            font-size: 15px;
+            color: $site-white;
+        }
+    }
+}
+@media screen and (max-width:1280px) and (min-width:800px) {
+    .form-content{
+        width: 100%;
+        max-width: 100%;
+        .booking{
+            text-align: center;
+        }
+
+    .top-boxes{
+        flex-direction: column;
+        margin: 0 auto;
+        min-height: 147px;
+        width: 100%;
+        input{
+            width: 50%;
+        }
+        .bigbox{
+            width: 50%;
+        }
+    }
+    .med-boxes{
+        flex-direction: column;
+        margin: 0 auto;
+        min-height: 120px;
+        input{
+            width: 50%;
+        }
+    }
+    .low-boxes{
+        margin: 0 auto;
+        min-height: 120px;
+        width: 80%;
+        input{
+            width: 100%;
+        }
+        .adult{
+            padding-right: 0px;
+        }
+        .adultN{
+            padding-right: 0px;
+            width: 50%;
+        }
+        .children{
+            padding-right: 0;
+        }
+        .childrenN{
+            padding-right: 0;
+            width: 50%;
+        }
+        .rooms{
+            padding-right: 0;
+        }
+        .roomsN{
+            width: 50%;
+        }
+    }
+    .textbox{
+        input{
+            width: 75%;
+            margin: 0 auto;
+        }
+    }
+    .submit{
+        .button{
+            width: 75%;
+            margin: 0 auto;
+        }
+    }
+}
+}

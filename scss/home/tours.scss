@@ -1,0 +1,77 @@
+.tours {
+    width: $tours-width;
+    height: $tours-height;
+    margin: -43px auto 0px auto;
+    display: flex;
+    justify-content: space-between;
+    .tour {
+        height: 304px;
+        width: 236px;
+        color: $site-white;
+    }
+    .tour1 {
+        width: 100%;
+        height: 100%;
+        background-image: linear-gradient(rgba($site-black,0.5),rgba($site-black,0.5)),url(../images/tour/tour-01.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    .tour2 {
+        width: 100%;
+        height: 100%;
+        background-image: linear-gradient(rgba($site-black,0.5),rgba($site-black,0.5)),url(../images/tour/tour-02.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    .tour3 {
+        width: 100%;
+        height: 100%;
+        background-image: linear-gradient(rgba($site-black,0.5),rgba($site-black,0.5)),url(../images/tour/tour-03.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    .tour1 , .tour2, .tour3{
+        .tourtitle{
+            text-transform: uppercase;
+            text-align: center;
+            font-size: 60px;
+            font-family: ProximaNovaScOsfExtraCondensed;
+            padding-top: 37px;
+        }
+        .toursubtitle{
+            font-size: 30px;
+            text-align: center;
+            font-family: ProximaNovaScOsfExtraCondensed;
+            padding-top: 6px;
+        }
+        .tourlearnmore{
+            background-color: $site-blue;
+            width: 133px;
+            height: 40px;
+            border-radius: 25px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            margin-top: 57px;
+            text-transform: uppercase;
+            font-size: 15px;
+        }
+    }
+}
+@media screen and (max-width:1280px) and (min-width:800px) {
+    .tours{
+        width: 100%;
+        .tour{
+            width: 75%;
+            margin: 0 auto;
+        }
+        flex-direction: column;
+        min-height: 940px;
+    }
+    
+}

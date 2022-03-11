@@ -1,0 +1,57 @@
+nav {
+    max-width: $site-width;
+    min-height: $nav-footer-height;
+    //background-color: $site-black;
+    margin: 0 auto;
+    border-bottom:  2px solid $site-white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    z-index: 99;
+
+    .logo, .logonav {
+        width: 92px;
+        height: 42px;
+    }
+    .logonav{
+        background-image: url(../images/logo/logo-black.png);
+    }
+    .logo{
+        background-image: url(../images/logo/logo-white.png);
+    }
+    .links, .linkshome{
+        a {
+            color: $site-white;
+            text-decoration: none;
+            margin-left: 20px;
+        }
+        .abouta{
+            color: $site-black;
+        }
+    }
+    span{
+        color: $site-white;
+        margin: 0 19.5px;
+    }
+    .links{
+        span{
+            color: $site-black;
+        }
+    }
+}
+.aboutnav{
+    border-bottom:  2px solid $site-black;
+}
+@media screen and (max-width:1280px) {
+    nav{
+        width: 76%;
+        .links
+        {
+        a{
+            margin-left: 1px;
+            font-size: 14px;
+        }
+    }
+    }
+}

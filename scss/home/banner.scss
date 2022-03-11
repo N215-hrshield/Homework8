@@ -1,0 +1,45 @@
+.banner {
+    max-width: $banner-footer-width;
+    height: $banner-height;
+    background-image: linear-gradient(rgba($site-black,0.5),rgba($site-black,0.5)),url(../images/hero.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: -92px auto 0 auto;
+    color: $site-white;
+    .title{
+        margin: 0 auto;
+        width: 232px;
+        height: 80px;
+        font-size: 60px;
+        font-family: ProximaNovaScOsfExtraCondensed;
+        padding-top: 162px;
+        text-align: center;
+    }
+    .subtitle{
+        padding-top: 107px;
+        font-family: GillSansI;
+        margin: 0 auto;
+        width: 714px;
+        height: 50px;
+        font-size: 20px;
+        text-align: center;
+    }
+    .learnmore{
+        width: 121px;
+        height: 40px;
+        background-color: $site-blue;
+        margin: 98px auto 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: 15px;
+        text-transform: uppercase;
+    }
+}
+@media all and (max-width:1280px) and (min-width:800px) {
+    .banner{
+        width: 100%;
+    }
+}
