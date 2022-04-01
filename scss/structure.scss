@@ -1,44 +1,31 @@
-@font-face {
-  font-family: GillSansR;
-  src: url(../images/fonts/GillSans-01.ttf);
-}
-@font-face {
-  font-family: GillSansL;
-  src: url(../images/fonts/GillSans-Light-08.ttf);
-}
-@font-face {
-  font-family: GillSansI;
-  src: url(../images/fonts/GillSans-Italic-03.ttf);
-}
-@font-face {
-  font-family: GillSansI;
-  src: url(../images/fonts/GillSans-);
-}
-@font-face {
-  font-family: ProximaNovaScOsfExtraCondensed;
-  src: url(../images/fonts/ProximaNovaScOsfExtraCondensed.ttf);
-}
-@font-face {
-  font-family: ProximaNovaThin;
-  src: url(../images/fonts/Proxima-Nova-Thin.otf);
-}
-  
-
 * {
-margin: 0;
-padding: 0;
-box-sizing: border-box;
-font-family: GillSansR;
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
 }
 html, body {
-height: 100%;
-background-color: white;
+ height: 100%
 }
 h1, h2, h3, h4, h5, h6, p {
-margin-bottom: 16px;
+ margin-bottom: 16px
 }
-
-#app {
-  max-width: $site-width;
-  margin: 0 auto;
+.wrapper {
+    width: 100%;
+    min-height: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+#app{
+    min-height: calc(100vh - 100px);
+    width: 100%;
+    background-color: blue;
+}
+.hero{
+    height: 330px;
+    background-color: green;
+    background-image: url(/images/hero.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
