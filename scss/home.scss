@@ -1,26 +1,25 @@
 .content{
-    color: red;
     min-height: 250px;
     background-color: white;
     padding: 50px;
 
-    .products{
+    .homeproducts{
         width: 70%;
-        background-color: black;
         min-height: 50px;
         margin: 0 auto;
-        .product{
+        .homeproduct{
             display: flex;
             align-items: center;
             justify-content: space-between;
             margin-bottom: 30px;
-            .prod-image{
+            .homeprod-image{
                 height: 350px;
                 width: 350px;
                 border-radius: 50%;
-                background-color: cyan;
+                background-image: url(/images/tour/tour-08.jpg);
+                background-size: cover;
             }
-            .prod-desc{
+            .homeprod-desc{
                 width: 50%;
             }
         }

@@ -1,0 +1,22 @@
+.products{
+    width: 80%;
+    margin: 0 auto;
+    .productinfo{
+        margin-top: 200px;
+        .productbox{
+            display: flex;
+            justify-content: space-between;
+            margin-top: 50px;
+            .producttext{
+                width: 50%;
+            }
+            .productpic{
+                width: 50%;
+                height: 300px;
+                background-image: url(../images/tour/tour-01.jpg);
+                background-size: contain;
+                background-repeat: no-repeat;
+            }
+        }
+    }
+}

@@ -23,7 +23,6 @@ h1, h2, h3, h4, h5, h6, p {
 #app {
   min-height: calc(100vh - 100px);
   width: 100%;
-  background-color: blue;
 }
 
 .hero {
@@ -48,40 +47,102 @@ nav a {
 }
 
 .content {
-  color: red;
   min-height: 250px;
   background-color: white;
   padding: 50px;
 }
-.content .products {
+.content .homeproducts {
   width: 70%;
-  background-color: black;
   min-height: 50px;
   margin: 0 auto;
 }
-.content .products .product {
+.content .homeproducts .homeproduct {
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin-bottom: 30px;
 }
-.content .products .product .prod-image {
+.content .homeproducts .homeproduct .homeprod-image {
   height: 350px;
   width: 350px;
   border-radius: 50%;
-  background-color: cyan;
+  background-image: url(/images/tour/tour-08.jpg);
+  background-size: cover;
 }
-.content .products .product .prod-desc {
+.content .homeproducts .homeproduct .homeprod-desc {
   width: 50%;
 }
 
 footer {
   height: 50px;
-  background-color: red;
-  color: white;
+  background-color: skyblue;
+  color: black;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.about {
+  width: 80%;
+  margin: 0 auto;
+}
+.about .aboutbanner {
+  height: 300px;
+  background-image: url(../images//special-offer-01.jpg);
+  background-size: cover;
+}
+.about .aboutdesc {
+  margin-top: 50px;
+  display: flex;
+}
+.about .aboutdesc .abouttext {
+  font-size: 30px;
+}
+
+.products {
+  width: 80%;
+  margin: 0 auto;
+}
+.products .productinfo {
+  margin-top: 200px;
+}
+.products .productinfo .productbox {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.products .productinfo .productbox .producttext {
+  width: 50%;
+}
+.products .productinfo .productbox .productpic {
+  width: 50%;
+  height: 300px;
+  background-image: url(../images/tour/tour-01.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.contact {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  margin-top: 100px;
+}
+.contact .map {
+  width: 20%;
+  height: 200px;
+  background-image: url(/images/tour/tour-05.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.contact .form {
+  width: 80%;
+  height: 200px;
+}
+.contact .form input {
+  width: 60%;
+  margin: 10px;
+  height: 50px;
 }
 
 /*# sourceMappingURL=styles.css.map */
