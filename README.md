@@ -1,5 +1,5 @@
-# Homework 5: Travel Fly About
+# Homework 8
 
-## https://in-info-web4.informatics.iupui.edu/~hrshield/Homework5/
+## https://in-info-web4.informatics.iupui.edu/~hrshield/Homework8/
 
-This assingment is all about the about page for the travel fly page. This page changes the Nav to be on a white background instead of a picture and set it up so the following page with white backgrounds can easily import the same styles. The two major pieces of the about page are the clients section and the layout with the quotes to the right of the pictures with clients names under it.
+This project is intended to add in jquery and javascript to make the webpages dynamic. The goal of this is to set up four pages that are all linked to each other and have their middle content be dynamiclly switched out by which one the user clicks on in the nav bar.
